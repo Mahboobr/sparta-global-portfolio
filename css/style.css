@@ -1,3 +1,17 @@
+.employment, .small-panel{
+  background-color: rgba(220,220,220,1);
+  border-radius: 10px;
+  padding-top: : 1px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
 nav.navbar-default {
-  background: green;
+  background: black;
+}
+
+@media screen and (max-width: 768px) {
+  #headshot {
+    width: 50%;
+  }
 }
